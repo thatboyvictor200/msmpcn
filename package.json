@@ -1,0 +1,20 @@
+{
+    "name": "church-website",
+    "version": "1.0.0",
+    "description": "Church website",
+    "scripts": {
+        "start": "vite",
+        "build-css": "sass scss/style.scss public/css/style.css --no-source-map --style=compressed",
+        "watch-css": "sass --watch scss/style.scss:css/style.css"
+    },
+    "dependencies": {
+        "bootstrap": "^5.3.7",
+        "detect.js": "^2.2.2",
+        "hls.js": "^1.4.12",
+        "vanilla-lazyload": "^17.8.4"
+    },
+    "devDependencies": {
+        "sass": "1.89.2",
+        "vite": "^7.0.2"
+    }
+}
