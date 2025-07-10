@@ -9008,6 +9008,9 @@ width: 140px;
     .daily-verse h4 span {
       color: rgba(255, 255, 255, 0.3); }
 
+.vision{
+  margin-top: 30px; 
+}
 .ftco-about-section {
   position: relative; }
   .ftco-about-section .text-wrapper {
