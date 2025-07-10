@@ -10089,4 +10089,25 @@ textarea.form-control {
     margin: 1.5%;
   }
 }
-  
+
+.one-half {
+  width: 50%;
+  min-height: 500px;
+}
+
+.text-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+  .one-half {
+    width: 100%;
+    min-height: auto;
+  }
+}
+
+.one-half.img {
+  position: relative;
+  z-index: 1;
+}
