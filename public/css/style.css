@@ -4353,6 +4353,25 @@ input[type="button"].btn-block {
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-size: 1rem 1rem; }
 
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+  
+  .hilogo {
+    max-width: 150px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    object-fit: contain;
+    animation: bounce 2s infinite ease-in-out;
+  }  
+
 .progress-bar-animated {
   -webkit-animation: progress-bar-stripes 1s linear infinite;
   animation: progress-bar-stripes 1s linear infinite; }
@@ -8237,10 +8256,14 @@ h1, h2, h3, h4, h5,
   .navbar-brand span {
     color: #ffd615; }
 
-.logo{
-height: 90px;
-width: 140px;
-}
+.logo {
+  height: auto;
+  max-height: 90px;
+  width: auto;
+  max-width: 140px;
+  object-fit: contain;
+  display: inline-block;
+}    
 
 .owl-carousel {
   position: relative; }
