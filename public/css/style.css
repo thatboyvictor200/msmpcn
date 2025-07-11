@@ -8715,8 +8715,12 @@ h1, h2, h3, h4, h5,
 }
 
 .logoss{
-  height: 130px;
-  width: 150px;
+  max-width: 150px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    object-fit: contain;
 }  
         
 .back-to-top {
